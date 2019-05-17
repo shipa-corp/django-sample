@@ -1,0 +1,4 @@
+hooks:
+  build:
+    - python manage.py collectstatic -c --noinput
+    - python manage.py migrate
